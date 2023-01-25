@@ -1,0 +1,26 @@
+
+
+function stringToArray(string){
+  return string.split(" ");
+  
+//not correct:  console.log(string.split(' '));
+
+}
+
+
+// https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+
+function DNAtoRNA(dna) {
+  // create a function which returns an RNA sequence from the given DNA sequence
+    return dna.replace(/T/g, "U");
+}
+
+// https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+var min = function(list){
+    return Math.min.apply(null, list);
+}
+
+var max = function(list){
+    
+    return Math.max.apply(null, list);
+}
